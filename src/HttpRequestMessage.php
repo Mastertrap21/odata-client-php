@@ -32,7 +32,7 @@ class HttpRequestMessage
      * Gets a set of properties for the HTTP request.
      * @var array
      */
-    public $properties;
+    public $properties = [];
 
     /**
      * Gets or sets the Uri used for the HTTP request.
